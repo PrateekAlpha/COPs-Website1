@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRARY PORTAL</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="main">
+    <h2>LIBRARY IIT(BHU)</h2>
+    <p>All Students of IIT(BHU) have been sent the password on their emails</p>
+    <nav class="nav">
+        <ul>
+            <a href="#home">Home</a>
+            <!-- <a href="#">About</a>
+            <a href="#">Services</a> -->
+            
+            <button class="button">Login</button>
+            
+        </ul>
+    </nav>
+    </div>
+    
+
+    <div class="wrapper">
+        <div class="Register">
+            <h2>Register</h2>
+            <form action="#">
+                <div class="input">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></ion-icon></span>
+                        <input type="username" required>
+                        <label>UserName</label>
+                </div>
+                <div class="input">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon>
+                    </span>
+                    <input type="password" required class="password" >
+                    <label>Password</label>
+                    
+                </div>
+                <div class="remember-me">
+                    <label><input type="checkbox">Remember me</label>
+                    
+                    <a href="#jaihind">Forgot Password?</a>
+                    
+                </div>
+                <div class="submit">
+                    <button class="button1">SUBMIT</button>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+    <div>
+        <form>
+            <div class="new" id="jaihind">
+                <div class="h3">
+                    <h3>FORGOT PASSWORD</h3>
+                </div>
+                <div class="email">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                  <input type="email" required>
+                  <label>EMAIL</label>
+                </div>
+                <hr>
+                <div>
+                    <button class="button3">SUBMIT</button>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+
+
+    <div class="home" id="home">
+        
+        <img src="library.jpeg" width="500px">
+        
+        <ul class="ul">
+            <li>Library will be open from 08:00am to 11:00pm</li>
+            <li>All Students are requested to register themselves before coming</li>
+            <li>You can register only 2 hours before coming to the library</li>
+        </ul>
+
+    </div>
+</body>
+</html>

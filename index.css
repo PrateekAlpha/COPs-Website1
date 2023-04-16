@@ -1,0 +1,214 @@
+*{
+    margin:0px;
+    padding:0px;
+
+    box-sizing:border-box;
+}
+.nav{
+     display: flex;
+     justify-content: flex-end;
+     font-size:1em;
+}
+h2{
+    font-family: 'Rubik Pixels', cursive;
+    font-size:20px;
+    user-select: none;
+    
+}
+.main{
+    background-color:#bdbaaf;
+    background-image: url('IIT(BHU).jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.button{
+    padding: 5px 10px;
+    color:blue;
+    /* border-radius: 14%; */
+    background-color:rgb(235, 209, 191);
+    margin-left:10px;
+    width:130px;
+    height:50px;
+    /* border:2px solid red; */
+    cursor:pointer;
+    font-size:1.1em;
+    font-weight:600;
+
+
+}
+.button:hover{
+    background-color:red;
+
+}
+a{
+    color:white;
+    position:relative;
+    font-size:1.1em;
+    font-weight:500;
+    margin-left:10px;
+    margin-bottom:0px;
+    text-decoration:none;
+}
+a::after{
+    content:'';
+    position:absolute;
+    width:100%;
+    height:3px;
+    background-color:white;
+    border-radius:5px;
+    bottom: -6px;
+    left:0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+
+    
+}
+a:hover::after{
+    transform:scaleX(1);
+}
+body{
+    
+    
+    background-image: url('bg7.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wrapper{
+    position:relative;
+    width:400px;
+    height:440px;
+    background:transparent;
+    /* border:2px solid red; */
+    backdrop-filter: blur(20px);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(167, 238, 215);
+    margin:50px 450px 100px 450px;
+    border-radius:10px;
+    box-shadow: 0 0 7px aquamarine;
+    
+    
+    
+}
+
+.wrapper:active{
+    height:460px;
+    transition: height .2s ease;
+}
+h2{
+    font-size:2em;
+    text-align:center;
+    
+}
+.input{
+    position:relative;
+    width:100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin-top:10px;
+
+} 
+.button1{
+    padding:5px 10px;
+    font-weight: 600;
+    background-color:aqua;
+    color:black;
+    border:2px solid red;
+    width:100%;
+    margin:10px;
+    cursor:pointer;
+    /* display:none; */
+}
+
+.wrapper:active-popup{
+    transform:scale(1);
+    transition:1s ease;
+    
+    
+
+}
+
+
+
+p{
+    font-weight: 600;
+    font-size:1em;
+    display:flex;
+    justify-content: center;
+}
+
+
+h3{
+    text-align:center;
+}
+
+
+.new{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width:400px;
+    height:440px;
+    border:2px solid aquamarine;
+    background-color: 	#0F9D58;
+    border-radius: 10px;
+    margin-left:450px;
+    margin-top:100px;
+    /* display:none; */
+    margin-bottom:300px;
+    box-shadow:0 0 7px aquamarine ;
+
+}
+
+
+.email{
+    margin-bottom:10px;
+    margin-left:80px;
+}
+
+.h3{
+    margin:80px 45px 20px 0px;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+.button3{
+    padding:10px 20px;
+    width:80%;
+    color:black;
+    font-size:15px;
+    font-weight: 600;
+    margin-top:20px;
+    margin-left:40px;
+    border:2px solid blue;
+    background-color: aqua;
+    cursor:pointer;
+
+}
+
+.home{
+    margin-top:10px;
+    margin-left:40px;
+}
+
+.ul{
+    color:rgb(55, 255, 0);
+}
+
+
+.home{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+img{
+    margin-bottom:20px;
+}
